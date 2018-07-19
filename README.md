@@ -18,8 +18,14 @@ latex elsarticle.ins
 
 elsarticle.sty requires psyr.tfm. If your TeX environment doesn't have, download and install [mdwfonts](https://www.ctan.org/tex-archive/macros/latex/contrib/mdwfonts?lang=en) from CTAN.
 
-Right here you ready to use ic-paper.tex.
-You don't need to modify documentclass options for both preprint and CRC.
+Right here, you ready to use ic-paper.tex.
+
+Note:
+* No need to modify documentclass options for both preprint and CRC.
 ```
 \documentclass[final,3p,times,twocolumn]{elsarticle}
+```
+* Edit the conference year of the footer
+```
+\jounal{internet Conference 20xx}
 ```
